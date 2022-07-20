@@ -1,3 +1,3 @@
 # Design-studio
-# Layout make by on HTML, CSS. Like Demo site.
+# Layout made in HTML and CSS. Like Demo site.
 
