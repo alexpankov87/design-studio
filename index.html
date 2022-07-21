@@ -15,17 +15,22 @@
         <!--header navigation section-->
         <header>
             <!--navigation section-->
-            <nav class="header-nav">
+            <nav class="header-nav container">
                 <!--navigation logo-brand section-->
                 <article class="header-nav_brand">
                     <a href="#" title="slogan brand company">
                         <span>IC "Repair Design Project"</span>
                     </a>
+
                 </article>
                 <!--navigation logo-brand section-->
                 <!--navigation menu section-->
                 <article class="header-nav_menu">
-                    <ul role="menu">
+                    <input id="menu-toggle" type="checkbox" />
+                    <label class='menu-button-container' for="menu-toggle">
+                        <div class='menu-button'></div>
+                    </label>
+                    <ul class="menu" role="menu">
                         <li role="menuitem">
                             <a class="header-nav_menu__link-active" aria-label="Home" href="#">Home</a>
                         </li>
