@@ -36,10 +36,13 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    margin-left: 135px;
+    margin-left: 50px;
   }
   .img-advantage-diggit-list {
     margin-left: 241px;
+  }
+  .bottom-feeds__column_form-feedsback {
+    margin-left: 41px;
   }
   .gallery-section-column {
     display: flex;
@@ -54,8 +57,187 @@
   .card-person-content {
     width: 80%;
   }
+  .our-clients-cards-container {
+    margin-bottom: 31px;
+  }
   .footer-nav_brand > a > span {
     margin-left: 92px;
     margin-right: 95.47px;
+  }
+  .diggit-text-number-four {
+    padding-inline-end: 80px;
+    padding-top: 8px;
+  }
+  .diggit-text {
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header-nav {
+    justify-content: flex-end;
+  }
+  .header-nav_brand > a > span {
+    margin-left: 0px;
+    margin-right: 65px;
+  }
+  .header-nav_menu {
+    flex-grow: 0;
+  }
+  .header-nav_menu > ul > li:not(:first-child) {
+    margin-left: 27.09px;
+  }
+  .header-banner__content {
+    margin-left: 204px;
+  }
+  .col-example-text > p {
+    padding-right: 10px;
+  }
+  .completed-example___column-desc-img {
+    margin-right: 41px;
+  }
+  .main-bottom-desc {
+    margin-top: -310px;
+    margin-left: 125px;
+  }
+  .form-content {
+    margin-left: 125px;
+  }
+  .form-content_text {
+    margin-left: 125px;
+  }
+  .form-container {
+    margin-left: 125px;
+  }
+  .cards-container-gallery {
+    margin-left: 125px;
+  }
+  .cards-content-img-redecoration {
+    width: 100%;
+  }
+  .cards-content-img-overhaul {
+    width: 100%;
+  }
+  .cards-content-img-repair {
+    width: 100%;
+  }
+  .cards-content-desc > ul {
+    margin-block-start: 13px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-block-end: 56px;
+    padding-inline-start: 37px;
+    margin-right: 40px;
+  }
+  .cards-container_subtitle {
+    margin-left: 125px;
+  }
+  .cards-container_repair {
+    margin-left: 125px;
+  }
+  .bottom-feeds__column_img-advantage-list {
+    background-image: url(img/bg-build.png);
+    height: 645px;
+    width: 65%;
+    background-position: left;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-right: 61px;
+    padding-right: 5px;
+  }
+  .img-advantage-diggit-list {
+    margin-left: 171px;
+  }
+  .bottom-feeds__column_form-feedsback {
+    margin-left: 41px;
+    margin-right: 61px;
+  }
+  .gallery-bg-section {
+    height: 824px;
+  }
+  .gallery-subtitle {
+    margin-left: 149px;
+    margin-right: 20px;
+    padding-right: 10px;
+  }
+  .gallery-subtitle > h3 {
+    margin-block-start: 47px;
+  }
+  .classic-top {
+    margin-right: 13px;
+    margin-bottom: 20.1px;
+  }
+  .classic-bottom {
+    margin-right: 23px;
+  }
+  .sofa-bottom {
+    margin-top: 22px;
+  }
+  .list-of-style {
+    margin-left: 149px;
+    margin-bottom: 97px;
+  }
+  .card-person-content {
+    width: 80%;
+  }
+  .person-card-title {
+    margin-right: 9px;
+  }
+  .card-container-column-fr-elem {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 85px;
+  }
+  .our-clients-cards-container {
+    margin-bottom: -119px;
+  }
+  .feed-form-container {
+    margin-top: -470px;
+    margin-left: 125px;
+  }
+  .bg-left {
+    z-index: -2;
+  }
+  .bottom-contacts {
+    margin-left: 125px;
+  }
+  .map-adress-point {
+    margin-left: 125px;
+  }
+  .our-clients-container {
+    margin-left: 125px;
+  }
+  .footer-nav_brand {
+    flex-grow: 1;
+    margin-top: 67px;
+    margin-bottom: 62px;
+  }
+  .footer-nav_menu {
+    flex-grow: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-nav_brand > a > span {
+    margin-left: 125px;
+    margin-right: 15.47px;
+  }
+  .footer-nav_menu > ul > li:not(:first-child) {
+    margin-left: 37.09px;
+  }
+  .footer-nav_menu > ul > li:last-child {
+    margin-right: 37.36px;
+  }
+  .desc-project_area-aparment > span {
+    line-height: 15px;
+  }
+  .desc-project_city > p {
+    margin-block-start: 7px;
+    margin-block-end: 1em;
+    padding-right: 10px;
+  }
+  .email-icon {
+    margin-bottom: 25px;
   }
 }
