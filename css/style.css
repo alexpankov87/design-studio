@@ -7,6 +7,9 @@
   font-family: "Yeseva One", cursive;
   src: url(/fonts/Yeseva_One/YesevaOne-Regular.ttf) format(truetype);
 }
+:root {
+  --color-bg: #e3b873;
+}
 /* --- Pseudo-class for the another browser input - placeholder ---*/
 ::-webkit-input-placeholder {
   opacity: 1;
@@ -100,7 +103,7 @@ header {
 .menu-button::before,
 .menu-button::after {
   display: block;
-  background-color: #e3b873;
+  background-color: var(--color-bg);
   position: absolute;
   height: 4px;
   width: 30px;
@@ -154,7 +157,7 @@ header {
   font-size: 11px;
   line-height: 15px;
   text-transform: uppercase;
-  color: #e3b873;
+  color: var(--color-bg);
   margin-left: 92px;
   margin-right: 95.47px;
 }
@@ -185,10 +188,10 @@ header {
 }
 .header-nav_menu > ul > li > a:hover {
   text-decoration: underline;
-  color: #e3b873;
+  color: var(--color-bg);
 }
 .header-nav_menu__link-active {
-  color: #e3b873;
+  color: var(--color-bg);
 }
 
 .header-nav_contacts_section {
@@ -201,14 +204,14 @@ header {
   line-height: 15px;
   text-align: right;
   text-decoration-line: underline;
-  color: #e3b873;
+  color: var(--color-bg);
 }
 .contacts_section_btn {
   margin-left: 45px;
   margin-right: 90px;
 }
 .btn__call {
-  background: #e3b873;
+  background: var(--color-bg);
   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
   border-radius: 2px;
   text-transform: uppercase;
@@ -244,7 +247,7 @@ header {
 }
 
 .btn-section_btn-calculate {
-  background: #e3b873;
+  background: var(--color-bg);
   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
   border-radius: 2px;
   text-transform: uppercase;
@@ -296,7 +299,7 @@ header {
   margin-block-end: 19px;
 }
 .header-banner__content > h1 > span {
-  color: #e3b873;
+  color: var(--color-bg);
 }
 .header-banner__content > p {
   font-size: 22px;
@@ -317,7 +320,7 @@ header {
   line-height: 37px;
   letter-spacing: -0.07em;
   text-transform: uppercase;
-  color: #e3b873;
+  color: var(--color-bg);
 }
 .main-top-desc_completed-example {
   display: flex;
@@ -363,13 +366,13 @@ header {
 }
 
 .desc-project_city > span {
-  font-family: "Yeseva One";
+  font-family: "Yeseva One", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
-  color: #e3b873;
+  color: var(--color-bg);
 }
 .desc-project_city > p {
   width: 161px;
@@ -382,13 +385,13 @@ header {
 }
 
 .desc-project_area-aparment > span {
-  font-family: "Yeseva One";
+  font-family: "Yeseva One", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
-  color: #e3b873;
+  color: var(--color-bg);
 }
 
 .desc-project_area-aparment > p {
@@ -396,9 +399,9 @@ header {
   margin-block-end: 1em;
 }
 .title {
-  font-family: "Yeseva One";
+  font-family: "Yeseva One", serif;
   text-transform: uppercase;
-  color: #e3b873;
+  color: var(--color-bg);
 }
 .desc-project_repair-time > span {
   font-size: 18px;
@@ -475,7 +478,7 @@ header {
   cursor: pointer;
 }
 .choice-city__rostov {
-  border-bottom: 1px solid #e3b873;
+  border-bottom: 1px solid var(--color-bg);
   padding-bottom: 6.68px;
   margin-right: 60.5px;
 }
@@ -487,7 +490,7 @@ header {
   cursor: pointer;
 }
 .choice-city__sochi > span {
-  font-family: "Yeseva One";
+  font-family: "Yeseva One", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -500,7 +503,7 @@ header {
   cursor: pointer;
 }
 .choice-city__rostov-patriotic > span {
-  font-family: "Yeseva One";
+  font-family: "Yeseva One", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -518,7 +521,7 @@ header {
 .main-bottom-desc_online-control-title > h2 {
   margin-block-start: 0;
   margin-block-end: 12.79px;
-  font-family: "Yeseva One";
+  font-family: "Yeseva One", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -542,13 +545,13 @@ header {
 .line-left {
   width: 32px;
   height: 1.52px;
-  background: #e3b873;
+  background: var(--color-bg);
   border-radius: 30px;
 }
 .line-right {
   width: 32px;
   height: 1.52px;
-  background: #e3b873;
+  background: var(--color-bg);
   border-radius: 30px;
 }
 .camera-img-svg {
@@ -565,7 +568,7 @@ header {
   width: 85px;
   height: 85px;
   border-radius: 50%;
-  background: #e3b873;
+  background: var(--color-bg);
   box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
   border: none;
   display: flex;
@@ -575,7 +578,7 @@ header {
 }
 .circle-btn:hover .triangle-right {
   border-top: 15px solid transparent;
-  border-left: 25px solid #e3b873;
+  border-left: 25px solid var(--color-bg);
   border-bottom: 15px solid transparent;
 }
 .circle-btn:hover {
@@ -606,7 +609,7 @@ header {
 .form-content_line {
   width: 55px;
   height: 1.95px;
-  background: #e3b873;
+  background: var(--color-bg);
   border-radius: 30px;
 }
 
@@ -698,7 +701,7 @@ header {
 
 .inline-form > button {
   padding: 0px 76px 0px 76px;
-  background: #e3b873;
+  background: var(--color-bg);
   box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.24);
   border-radius: 2px;
   border: none;
@@ -752,7 +755,7 @@ header {
 }
 
 .container-checkbox input:checked ~ .checkmark {
-  background-color: #e3b873;
+  background-color: var(--color-bg);
 }
 
 .checkmark:after {
@@ -787,7 +790,7 @@ header {
   flex-direction: column;
 }
 .cards-container_subtitle > h2 {
-  font-family: "Yeseva One";
+  font-family: "Yeseva One", serif;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -881,12 +884,12 @@ header {
   margin-top: -30px;
 }
 .cards-button-cost .cards-btn {
-  font-family: "Yeseva One";
+  font-family: "Yeseva One", serif;
   font-size: 17px;
   line-height: 25px;
   text-transform: uppercase;
   color: #ffffff;
-  background: #e3b873;
+  background: var(--color-bg);
   box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
   border: none;
   padding: 17px 21.44px 17px 21.44px;
@@ -955,7 +958,7 @@ header {
 }
 .diggit-col-description .diggit-bg-figure-number-style {
   color: #131313;
-  background: #e3b873;
+  background: var(--color-bg);
   width: 51.76px;
   height: 51.76px;
   border: 8px solid #ffffff;
@@ -1094,7 +1097,7 @@ header {
   margin-bottom: 27px;
 }
 .form-feedback-btn > button {
-  background-color: #e3b873;
+  background-color: var(--color-bg);
   padding-left: 22px;
   margin-right: 48px;
   padding-right: 22px;
@@ -1131,7 +1134,7 @@ header {
   padding-bottom: 20px;
 }
 .piggy-svg-img-block {
-  background: #e3b873;
+  background: var(--color-bg);
   width: 72px;
   height: 72px;
   border-radius: 40px;
@@ -1146,7 +1149,7 @@ header {
 .piggy-container-text > span {
   font-size: 18px;
   line-height: 26px;
-  color: #e3b873;
+  color: var(--color-bg);
   text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
   white-space: pre-line;
 }
@@ -1195,7 +1198,7 @@ header {
 }
 
 .form-feedback-container-checkbox input:checked ~ .checkmark {
-  background-color: #e3b873;
+  background-color: var(--color-bg);
 }
 
 .checkmark:after {
@@ -1262,11 +1265,11 @@ header {
   padding-right: 270px;
 }
 .gallery-subtitle > h3 {
-  font-family: "Yeseva One";
+  font-family: "Yeseva One", serif;
   font-size: 27px;
   line-height: 37px;
   text-transform: uppercase;
-  color: #e3b873;
+  color: var(--color-bg);
   margin-block-start: 137px;
   margin-block-end: 47px;
 }
@@ -1320,8 +1323,8 @@ header {
   line-height: 25px;
 }
 .list-of-style .active {
-  color: #e3b873;
-  border-bottom: 1px solid #e3b873;
+  color: var(--color-bg);
+  border-bottom: 1px solid var(--color-bg);
   padding-bottom: 3px;
 }
 .list-of-style .active:hover {
@@ -1335,7 +1338,7 @@ header {
   align-items: center;
 }
 .our-clients-title > h3 {
-  font-family: "Yeseva One";
+  font-family: "Yeseva One", serif;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -1406,7 +1409,7 @@ header {
 .person-card-title > span {
   font-size: 20px;
   line-height: 23px;
-  font-family: "Yeseva One";
+  font-family: "Yeseva One", serif;
   color: #181818;
   font-weight: 600;
 }
@@ -1438,7 +1441,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: #e3b873;
+  background-color: var(--color-bg);
   margin-bottom: -28px;
 }
 .card-result-work .qudrature-icon {
@@ -1458,7 +1461,7 @@ header {
   margin-right: 15.39px;
 }
 .card-result-work .qudrature-text > span {
-  font-family: "Yeseva One";
+  font-family: "Yeseva One", serif;
   font-size: 17px;
   line-height: 24px;
   text-transform: uppercase;
@@ -1467,7 +1470,7 @@ header {
   margin-right: 17px;
 }
 .blank-text > span {
-  font-family: "Yeseva One";
+  font-family: "Yeseva One", serif;
   font-size: 17px;
   line-height: 24px;
   text-transform: uppercase;
@@ -1516,7 +1519,7 @@ header {
   display: inline-flex;
   width: 20px;
   height: 20px;
-  background: #e3b873;
+  background: var(--color-bg);
   color: #fff;
   justify-content: center;
 }
@@ -1681,7 +1684,7 @@ header {
 .bottom-contacts-adress-phone > span {
   display: flex;
   flex-direction: column;
-  font-family: "Yeseva One";
+  font-family: "Yeseva One", serif;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -1698,7 +1701,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e3b873;
+  background-color: var(--color-bg);
   width: 28px;
   height: 28px;
   border-radius: 15px;
@@ -1723,7 +1726,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e3b873;
+  background-color: var(--color-bg);
   width: 28px;
   height: 28px;
   border-radius: 15px;
@@ -1765,7 +1768,7 @@ header {
   font-size: 11px;
   line-height: 15px;
   text-transform: uppercase;
-  color: #e3b873;
+  color: var(--color-bg);
   margin-left: 92px;
   margin-right: 95.47px;
 }
@@ -1796,10 +1799,10 @@ header {
 }
 .footer-nav_menu > ul > li > a:hover {
   text-decoration: underline;
-  color: #e3b873;
+  color: var(--color-bg);
 }
 .footer-nav_menu__link-active {
-  color: #e3b873;
+  color: var(--color-bg);
 }
 
 .footer-nav_contacts_section {
@@ -1812,14 +1815,14 @@ header {
   line-height: 15px;
   text-align: right;
   text-decoration-line: underline;
-  color: #e3b873;
+  color: var(--color-bg);
 }
 .contacts_section_btn {
   margin-left: 45px;
   margin-right: 90px;
 }
 .btn__call {
-  background: #e3b873;
+  background: var(--color-bg);
   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
   border-radius: 2px;
   text-transform: uppercase;
