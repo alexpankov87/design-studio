@@ -317,6 +317,11 @@
   .col-example_choice-img > img {
     width: 469px;
   }
+  .col-example-img {
+    max-width: 100%;
+    width: 479px;
+    height: 322px;
+  }
   .col-example-arrow-pagination {
     margin-top: 29.64px;
   }
