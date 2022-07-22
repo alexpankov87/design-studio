@@ -1,0 +1,295 @@
+@media screen and (max-width: 425px) {
+  .header-nav_menu {
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 0;
+    margin-left: 55px;
+  }
+  .header-banner_gb-img {
+    background-position: left;
+    width: 100%;
+    height: 707px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-banner__content {
+    margin-left: 284px;
+  }
+  .header-banner__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacts-section__phone-text > span {
+    font-size: 15px;
+  }
+  .btn__call {
+    font-size: 15px;
+  }
+  .header-banner__content > p {
+    font-size: 26px;
+  }
+  .header-banner_content__btn-section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .btn-section_btn-calculate {
+    font-size: 15px;
+  }
+  .btn-section_btn-submit-app {
+    font-size: 15px;
+  }
+  .btn-section_btn-calculate {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .completed-example__row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .completed-example___column-desc {
+    margin-left: 304px;
+    margin-top: 6px;
+  }
+  .col-example_choice-city {
+    display: none;
+  }
+  .completed-example___column-desc-img {
+    margin-top: 41px;
+    margin-left: 290px;
+  }
+  .col-example-img {
+    max-width: 100%;
+    width: 589px;
+    height: 482px;
+  }
+  .col-example-stroke-left {
+    display: flex;
+    width: 66px;
+    height: 66px;
+    border-radius: 40px;
+    margin-left: 10px;
+  }
+  .col-example-stroke-left > svg {
+    width: 30px;
+    height: 34px;
+  }
+  .col-example-stroke-right {
+    display: flex;
+    width: 66px;
+    height: 66px;
+    border-radius: 40px;
+    margin-left: 10px;
+  }
+  .col-example-stroke-right > svg {
+    width: 30px;
+    height: 34px;
+  }
+  .title-complete-project {
+    font-size: 37px;
+    line-height: 39px;
+  }
+  .col-example-text > p {
+    font-size: 19px;
+    line-height: 32px;
+  }
+  .desc-project_city > span {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .col-example-arrow-pagination {
+    display: none;
+  }
+  .desc-project_city > p {
+    font-size: 20px;
+  }
+  .desc-project_area-aparment {
+    margin-left: 60px;
+  }
+  .desc-project_area-aparment > p {
+    font-size: 20px;
+  }
+  .desc-project_repair-time > span {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .desc-project_repair-time > p {
+    font-size: 20px;
+  }
+  .desc-project_area-aparment > span {
+    font-size: 25px;
+  }
+  .desc-project_repair-cost > span {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .desc-project_repair-cost > p {
+    font-size: 20px;
+  }
+  .control-img-frame {
+    width: 607px;
+    margin-left: 132px;
+  }
+  .main-bottom-desc_online-control-title > h2 {
+    font-size: 30px;
+    margin-left: 105px;
+  }
+
+  .camera-svg > svg {
+    width: 54px;
+    height: 64px;
+  }
+  .line-left {
+    width: 52px;
+  }
+  .line-right {
+    width: 52px;
+  }
+  .camera-img-svg {
+    display: flex;
+    align-items: center;
+    margin-bottom: 31.21px;
+    margin-left: 105px;
+  }
+  .main-bottom-desc {
+    margin-top: -380px;
+  }
+  .form-content {
+    margin-left: 235px;
+  }
+  .form-content_text {
+    margin-left: 255px;
+    width: 601px;
+    height: 131px;
+    margin-bottom: 80px;
+  }
+  .form-container {
+    margin-left: 135px;
+    margin-top: 30px;
+  }
+  .form-content-block .form-content_text > p {
+    font-size: 21px;
+  }
+  .inline-form {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .inline-form .input-form-float-name-label > label {
+    font-size: 25px;
+    line-height: 31px;
+  }
+  .inline-form .input-form-float-name-label > input {
+    padding-top: 11px;
+    padding-bottom: 13px;
+    width: 521px;
+    margin-right: -58px;
+    margin-bottom: 20px;
+  }
+  .inline-form .input-form-float-name-label > input::placeholder {
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .inline-form .input-form-float-phone-label > label {
+    font-size: 25px;
+    line-height: 31px;
+  }
+  .inline-form .input-form-float-phone-label > input {
+    padding-top: 11px;
+    padding-bottom: 13px;
+    width: 521px;
+    margin-right: -58px;
+    margin-bottom: 20px;
+  }
+  .inline-form .input-form-float-phone-label > input::placeholder {
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .inline-form > button {
+    padding: 30px 186px 30px 186px;
+    font-size: 25px;
+    margin-left: 105px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .inline-form > label:last-child {
+    font-size: 24px;
+    padding-left: 40px;
+    padding-top: 3px;
+  }
+  .checkmark {
+    height: 28px;
+    width: 28px;
+  }
+  .container-checkbox .checkmark:after {
+    left: 11px;
+    top: 4px;
+    width: 8px;
+    height: 15px;
+  }
+  .our-clients-container {
+    display: none;
+  }
+  .our-clients-cards-container {
+    display: none;
+  }
+  .footer-bg {
+    display: none;
+  }
+  .cards-container-gallery {
+    flex-direction: column;
+  }
+  .cards-container-row {
+    flex-direction: column;
+    margin-left: 165px;
+  }
+  .cards-container-column {
+    display: flex;
+    margin-bottom: 250px;
+  }
+  .cards-container-row .cards-container-column:last-child {
+    margin-top: 20px;
+  }
+  .cards-content-img-redecoration {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 421px;
+    padding-bottom: 187px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .cards-content-desc {
+    margin-left: -119px;
+  }
+  .cards-content-img-overhaul {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 421px;
+    padding-bottom: 187px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .cards-content-img-repair {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 421px;
+    padding-bottom: 187px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .cards-content-desc > h3 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .cards-content-desc > ul > li {
+    font-size: 21px;
+    line-height: 30px;
+  }
+}
