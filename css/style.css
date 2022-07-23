@@ -1895,4 +1895,47 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
+.col-example-title-mobile-version {
+  display: none;
+  margin-top: 10px;
+}
+.title-complete-project-mobile-version {
+  display: none;
+  font-family: "Yeseva One", serif;
+  font-size: 27px;
+  line-height: 37px;
+  letter-spacing: -0.07em;
+  text-transform: uppercase;
+  color: var(--color-bg);
+}
+.col-example-text-mobile-version > p {
+  display: none;
+  font-size: 14px;
+  line-height: 27px;
+  margin-block-start: 34px;
+  margin-block-end: 42px;
+  padding-right: 220px;
+}
+.col-example-desc-project-city-mobile-version {
+  display: none;
+}
+.col-example-desc-project-repair-mobile-version {
+  display: none;
+}
+.main-bottom-desc-mobile-version {
+  display: none;
+}
+.form-content-mobile-version {
+  display: none;
+}
+.form-content_text-mobile-version {
+  display: none;
+}
+.form-content-block-mobile-version .form-content_text-mobile-version > p {
+  display: none;
+}
+.form-container-mobile-version  {
+  display: none;
+}
 /*--- END of (Main section) ---*/
