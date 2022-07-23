@@ -122,6 +122,12 @@
   .form-container-mobile-version  {
     display: none;
   }
+  .footer-gallery-slider-mobile-version {
+    display: none;
+  }
+  .footer-feed-form-container{
+    display: none;
+  }
 }
 /*---@MEDIA SCREEN  1440px ---*/
 
@@ -337,6 +343,12 @@
     display: none;
   }
   .form-container-mobile-version  {
+    display: none;
+  }
+  .footer-gallery-slider-mobile-version {
+    display: none;
+  }
+  .footer-feed-form-container{
     display: none;
   }
 }
@@ -609,6 +621,12 @@
     display: none;
   }
   .form-container-mobile-version  {
+    display: none;
+  }
+  .footer-gallery-slider-mobile-version {
+    display: none;
+  }
+  .footer-feed-form-container {
     display: none;
   }
 }

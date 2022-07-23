@@ -1938,4 +1938,10 @@ header {
 .form-container-mobile-version  {
   display: none;
 }
+.footer-gallery-slider-mobile-version {
+  display: none;
+}
+.footer-feed-form-container{
+  display: none;
+}
 /*--- END of (Main section) ---*/

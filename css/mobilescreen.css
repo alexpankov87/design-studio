@@ -167,55 +167,6 @@
   .cards-container-gallery {
     flex-direction: column;
   }
-  .cards-container-row {
-    flex-direction: column;
-    margin-left: 165px;
-  }
-  .cards-container-column {
-    display: flex;
-    margin-bottom: 250px;
-  }
-  .cards-container-row .cards-container-column:last-child {
-    margin-top: 20px;
-  }
-  .cards-content-img-redecoration {
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 421px;
-    padding-bottom: 187px;
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-  .cards-content-desc {
-    margin-left: -119px;
-  }
-  .cards-content-img-overhaul {
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 421px;
-    padding-bottom: 187px;
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-  .cards-content-img-repair {
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 421px;
-    padding-bottom: 187px;
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-  .cards-content-desc > h3 {
-    font-size: 25px;
-    line-height: 35px;
-  }
-  .cards-content-desc > ul > li {
-    font-size: 21px;
-    line-height: 30px;
-  }
   .col-example-title-mobile-version {
     display: flex;
     margin-top: 10px;
@@ -261,9 +212,13 @@
   }
   .col-example-desc-project-city-mobile-version {
     display: flex;
+    margin-bottom: 40px;
+    margin-top: 30px;
   }
   .col-example-desc-project-repair-mobile-version {
     display: flex;
+    margin-bottom: 40px;
+    margin-top: 10px;
   }
   .main-bottom-desc-mobile-version {
     display: flex;
@@ -438,7 +393,7 @@
     margin-top: 0px;
   }
   .cards-content-img-redecoration {
-    width: 100%;
+    width: 581px;
     background-repeat: no-repeat;
     background-size: cover;
     height: 501px;
@@ -450,7 +405,7 @@
     margin-left: -119px;
   }
   .cards-content-img-overhaul {
-    width: 100%;
+    width: 581px;
     background-repeat: no-repeat;
     background-size: cover;
     height: 501px;
@@ -459,7 +414,7 @@
     padding-right: 50px;
   }
   .cards-content-img-repair {
-    width: 100%;
+    width: 581px;
     background-repeat: no-repeat;
     background-size: cover;
     height: 501px;
@@ -474,5 +429,264 @@
   .cards-content-desc > ul > li {
     font-size: 21px;
     line-height: 30px;
+  }
+  .main-bottom-feeds {
+    display: none;
+  }
+  .main-bottom-gallery-section {
+    display: none;
+  }
+  .bottom-feedback-form-section {
+    display: none;
+  }
+  .footer-nav {
+    display: none;
+  }
+  .footer-gallery-slider-mobile-version {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin-left: 235px;
+    margin-bottom: -270px;
+  }
+  .footer-gallery-slider-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .gallery-slider-img {
+    background-image: url(img/gallery_bg-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    width: 589px;
+    height: 482px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .slider-img-title > h2{
+    font-family: 'Yeseva One',serif;
+    font-size: 47px;
+    line-height: 138.6%;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-bg);
+  }
+  .footer-feed-form-container {
+    display: flex;
+    margin-top: 0px;
+    margin-left: 135px;
+    padding-left: 61.5px;
+    padding-right: 51.5px;
+    background: var(--color-bg-section);
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 230px;
+  }
+  .footer-feed-form-container .subtitle > h3 {
+    font-family: "Yeseva One", serif;
+    font-size: 30px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-block-start: 52px;
+    margin-block-end: 52px;
+    margin-left: 52px;
+  }
+  .footer-form {
+    margin-left: 85px;
+  }
+  .footer-flex-input {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-form-group > label {
+    font-size: 25px;
+    line-height: 31px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 7px;
+  }
+  .footer-form-group > input {
+    margin-bottom: 64px;
+    background-color: var(--color-bg-section);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    padding-top: 11px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.753);
+  }
+  .footer-form-group > input::placeholder {
+    font-size: 25px;
+    line-height: 25px;
+    color: #ffffff;
+  }
+  .footer-form-group > button {
+    background: var(--color-bg);
+    box-shadow: 0px 10px 20px rgba(227, 184, 115, 0.1);
+    font-size: 25px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 18.84px;
+    padding-bottom: 18.84px;
+  }
+  .footer-form-group {
+    margin-bottom: 40px;
+  }
+  .map-adress-point {
+    margin-left: 89px;
+    width: 585px;
+  }
+  .bottom-contacts {
+    margin-left: 75px;
+  }
+  .bottom-contacts-adress-phone > span {
+    display: flex;
+    flex-direction: column;
+    font-family: "Yeseva One", serif;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-bg);
+  }
+  .email-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-bg);
+    width: 58px;
+    height: 58px;
+    border-radius: 35px;
+  }
+  .instagram-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-bg);
+    width: 58px;
+    height: 58px;
+    border-radius: 35px;
+  }
+  .email-icon > a > svg {
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+  }
+  .instagram-icon > a > svg {
+    margin-top: 4px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header-nav_menu {
+    margin-left: 175px;
+  }
+  .footer-gallery-slider-mobile-version {
+    margin-left: 275px;
+  }
+  .footer-form {
+    margin-left: 115px;
+  }
+  .map-adress-point {
+    margin-left: 80px;
+    width: 585px;
+    padding-left: 40px;
+    padding-right: 0px;
+  }
+  .bottom-contacts {
+    margin-left: 115px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .col-example-img {
+    max-width: 90%;
+    margin-left: 20px;
+    width: 569px;
+  }
+  .col-example-text-mobile-version > p {
+    padding-left: 40px;
+  }
+  .btn-section_btn-calculate {
+    font-size: 25px;
+  }
+  .btn-section_btn-submit-app {
+    font-size: 25px;
+  }
+  .col-example-desc-project-city-mobile-version {
+    margin-left: 40px;
+  }
+  .col-example-desc-project-repair-mobile-version {
+    margin-left: 40px;
+  }
+  .control-img-frame {
+    width: 527px;
+    margin-left: 302px;
+  }
+  .main-bottom-desc_online-control-title > h2 {
+    padding-left: 30px;
+  }
+  .camera-img-svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 289px;
+    margin-left: 0px;
+  }
+  .form-content_text-mobile-version {
+    display: flex;
+    margin-left: 255px;
+    width: 481px;
+    height: 131px;
+    margin-bottom: 50px;
+  }
+  .form-container-mobile-version {
+    display: flex;
+    margin-left: 205px;
+    margin-top: 30px;
+  }
+  .cards-container_subtitle > h2 {
+    font-size: 25px;
+  }
+  .repair-img-svg > svg {
+    margin-left: 9.47px;
+    margin-right: 9.47px;
+    width: 50px;
+    height: 50px;
+  }
+  .cards-container-column {
+    display: flex;
+    margin-bottom: 200px;
+    margin-right: 0px;
+  }
+  .footer-gallery-slider-mobile-version {
+    margin-left: 295px;
+  }
+  .footer-feed-form-container .subtitle > h3 {
+    font-family: "Yeseva One", serif;
+    font-size: 30px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-block-start: 52px;
+    margin-block-end: 52px;
+    margin-left: 122px;
   }
 }
