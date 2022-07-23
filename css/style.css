@@ -332,7 +332,10 @@ header {
   display: flex;
   padding-bottom: 416px;
 }
-
+/* -----------LUba------------------*/
+/* -----------LUba------------------*/
+/* -----------LUba------------------*/
+/* -----------LUba------------------*/
 .completed-example___column-desc {
   margin-left: 134px;
   margin-top: 176px;
@@ -365,8 +368,6 @@ header {
 
 .desc-project_city > span {
   font-family: "Yeseva One", serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
@@ -384,8 +385,6 @@ header {
 
 .desc-project_area-aparment > span {
   font-family: "Yeseva One", serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
@@ -489,8 +488,6 @@ header {
 }
 .choice-city__sochi > span {
   font-family: "Yeseva One", serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 19px;
   text-transform: uppercase;
@@ -502,8 +499,6 @@ header {
 }
 .choice-city__rostov-patriotic > span {
   font-family: "Yeseva One", serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 19px;
   text-transform: uppercase;
