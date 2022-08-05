@@ -332,10 +332,7 @@ header {
   display: flex;
   padding-bottom: 416px;
 }
-/* -----------LUba------------------*/
-/* -----------LUba------------------*/
-/* -----------LUba------------------*/
-/* -----------LUba------------------*/
+
 .completed-example___column-desc {
   margin-left: 134px;
   margin-top: 176px;
@@ -515,8 +512,6 @@ header {
   margin-block-start: 0;
   margin-block-end: 12.79px;
   font-family: "Yeseva One", serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -1215,6 +1210,7 @@ header {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
 .main-bottom-gallery-section {
   margin-top: 242px;
   margin-bottom: 110px;
@@ -1324,6 +1320,8 @@ header {
   color: #ffffff;
   border-bottom: 1px solid #ffffff;
 }
+
+
 .our-clients-title {
   display: flex;
   align-content: center;
@@ -1360,6 +1358,7 @@ header {
   margin-block-start: 0em;
   margin-block-end: 39px;
 }
+
 .our-clients-cards-container {
   display: flex;
   justify-content: center;
@@ -1563,7 +1562,7 @@ header {
   margin-block-start: 34.4px;
   margin-block-end: 45.84px;
 }
-.form-group-postion-flexbol {
+.form-group-position-flexbox {
   display: flex;
   margin-bottom: 48.76px;
 }
@@ -1656,7 +1655,7 @@ header {
   line-height: 27px;
   text-align: center;
   text-transform: uppercase;
-  background: #e3b873;
+  background: var(--color-bg);
   box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
   padding: 13px 54px 19px 54px;
   cursor: pointer;
@@ -1682,7 +1681,7 @@ header {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  color: #e3b873;
+  color: var(--color-bg);
 }
 .bottom-contacts-social-icon {
   display: flex;
@@ -1833,6 +1832,7 @@ header {
   background: #ffffff;
   color: var(--color-bg-section);
 }
+/*----*/
 .col-example_img-apartment {
   display: flex;
   flex-direction: row;
