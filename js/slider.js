@@ -1,3 +1,4 @@
+//Create array updata with datatype
 const sliderElements = [
     {
         textCity: 'Rostov-on-Don LCD admiral',
@@ -22,6 +23,7 @@ const sliderElements = [
     }
 ]
 
+//Declaring variables of the DOM - index.html
 const collectionDescCity = document.querySelector('#rostov-text');
 const collectionDescApart = document.querySelector('#apartment-text');
 const collectionDescRepairTime = document.querySelector('#repair-time');
@@ -31,7 +33,8 @@ const getDots = document.getElementsByClassName('dots');
 const getTabsSection = document.getElementsByClassName('choice-city');
 const arrowPrev = document.querySelector('.arrow-left');
 const arrowNext = document.querySelector('.arrow-right');  
-    
+
+//Iterate over the massive with data and change the variables
 const setSliderElements = (index) => {
     collectionDescCity.innerText = sliderElements[index].textCity;
     collectionDescApart.innerText = sliderElements[index].apartmentText;
@@ -40,9 +43,10 @@ const setSliderElements = (index) => {
     collectionDescSliderImage.style.backgroundImage = `url(${sliderElements[index].img})`
 }
 
-
+//Counter of index
 let currentIndex = 0;
 
+//Add event to the svg icon "prev" - step
 arrowPrev.addEventListener('click', () => {
     let activeTab = currentIndex - 1;
 
@@ -58,6 +62,7 @@ arrowPrev.addEventListener('click', () => {
     console.log(activeTab);
 })
 
+//Add event to the svg icon "next" - step
 arrowNext.addEventListener('click', () => {
     let activeTab = currentIndex + 1;
 
@@ -74,6 +79,7 @@ arrowNext.addEventListener('click', () => {
     console.log(activeTab);
 })
 
+//Declaring function to the change class active tabs of dots
 function slideShow(n) {
     for(let i = 0; i < getDots.length; i++) {
         getDots[i].className = getDots[i].className.replace(" dots-active", "");
@@ -86,12 +92,11 @@ function slideShow(n) {
     getTabsSection[n].className += " choice-city-active";
 }
 
+//Declare a function that calls the callback of the slide change function when switching to dots and tabs
 function currentSlide(n) {
     currentIndex = n;
-
     setSliderElements(n);
     slideShow(n);
 }
 
-console.log(getDots);
-console.log(getTabsSection);
+
